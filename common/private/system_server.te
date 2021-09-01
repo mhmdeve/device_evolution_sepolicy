@@ -16,6 +16,7 @@ hal_client_domain(system_server, hal_lineage_fastcharge)
 hal_client_domain(system_server, hal_lineage_touch)
 hal_client_domain(system_server, hal_lineage_trust)
 hal_client_domain(system_server, hal_lineage_powershare)
+hal_client_domain(system_server, hal_chargecontrol)
 
 # Long screenshot
 add_service(system_server, longshot_service)

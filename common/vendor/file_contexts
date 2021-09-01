@@ -19,3 +19,6 @@
 
 # Wi-Fi HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@1\.0-service\.legacy u:object_r:hal_wifi_default_exec:s0
+
+# Optimized charge HAL
+/(vendor|system/vendor)/bin/hw/vendor\.kscope\.chgctrl@1\.0-service u:object_r:hal_chargecontrol_default_exec:s0
